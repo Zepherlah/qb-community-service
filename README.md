@@ -1,5 +1,7 @@
 # COMMUNITY SERVICE SCRIPT FOR PS-MDT QBCORE
 
+https://streamable.com/b89rlz
+
 **Commands**
 End Community service with /endcomserv [id]
 
