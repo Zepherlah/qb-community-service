@@ -162,6 +162,9 @@ Citizen.CreateThread(function()
 
 						if actionsRemaining == 0 then
 							QBCore.Functions.Notify("You have completed your community service", "success")
+							if propIndex ~= -1 then -- If the ped has a prop
+							    ClearPedProp(playerPed, 0) -- Remove the prop
+							end
 						end
 
 					end
