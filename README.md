@@ -4,6 +4,7 @@
 
 End Community service with /endcomserv [id]
 
+Send Community service with /comserv or use PS-MDT
 
 > **SETUP**
 
@@ -13,9 +14,7 @@ End Community service with /endcomserv [id]
 
 3. Goto - qb-core/server/player.lua
 
-4. Find - Line 88 -- Metadata
-
-Under the function - paste below. 
+4. Find - Line 88 -- Metadata -- Under the function - paste below. 
 
 ```
  PlayerData.metadata["communityservice"] = PlayerData.metadata["communityservice"] ~= nil and PlayerData.metadata["communityservice"] or 0
